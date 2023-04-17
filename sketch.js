@@ -77,6 +77,8 @@ function draw() {
   }  
     
   drawSprites();
+  //score = score + Math.round(getFrameRate()/60);
+  //console.log(Math.round(getFrameRate()/60));
   text("Score: "+ score, 300,50);
 }
 
